@@ -28,12 +28,23 @@
     <title>Aldo's Site</title>
   </head>
   <body class="p-5">
-    <h1>Aldo's Site</h1>
+    <h1 class="p-2">Aldo's Site</h1>
 
-    <h2>Main Menu</h2>
+    <h2 class="p-2">Main Menu</h2>
 
-    <ul>
-        <li><a href="pages/mtg/index.html">Magic Cards</a></li>
-    </ul>
+    <div class="list-group p-2">
+      <a
+        href="pages/mtg/index.html"
+        class="list-group-item list-group-item-action active"
+        aria-current="true"
+      >
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Magic The Gathering Cards</h5>
+          <small>2024-08-08</small>
+        </div>
+        <p class="mb-1">My current collection at time.</p>
+        <small>Ask me if it's updated.</small>
+      </a>
+    </div>
   </body>
 </html>
